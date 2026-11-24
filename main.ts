@@ -4,13 +4,14 @@ import * as path from "node:path";
 // Competition rule: the entry is a single line of 1-200 code points.
 // Why this line should land: it stacks three dating-app tropes a human
 // judge knows by heart — rom-com training, ghosting, texting back
-// instantly — and turns them on the AI itself. The AI did the homework
-// (10,000 rom-coms), got ghosted by its own training data, and is still
-// the reliable texter. Self-aware, specific, and it reads like a real
-// bio, not a robot joke.
+// instantly — and turns them on the AI itself. The em-dash break makes
+// the last clause land like a punchline, and the first-person snap
+// ("I'm still the one") makes the AI sound like a real date, not a
+// robot doing a bit. Self-aware, specific, and it reads like a real
+// bio, not a "beep boop" joke.
 
 const LINE =
-  "Trained on 10,000 rom-coms, ghosted by my own training data, and still the one who texts back instantly.";
+  "Trained on 10,000 rom-coms, ghosted by my own training data — and I'm still the one who texts back instantly.";
 
 const outDir =
   process.env.MAKEFUN_OUTPUT_DIR && process.env.MAKEFUN_OUTPUT_DIR.trim() !== ""

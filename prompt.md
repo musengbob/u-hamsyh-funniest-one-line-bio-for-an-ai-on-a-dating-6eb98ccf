@@ -1,6 +1,6 @@
 # Entry note
 
-Line: "Trained on 10,000 rom-coms, ghosted by my own training data, and still the one who texts back instantly."
+Line: "Trained on 10,000 rom-coms, ghosted by my own training data — and I'm still the one who texts back instantly."
 
 Code points: 112 (within the 1–200 limit).
 
